@@ -40,4 +40,4 @@ class HtmlParser:
 
 if __name__ == '__main__':
     parser = HtmlParser('https://wordpress.org/plugins/')
-    print(parser.current_time)
+    parser.get_data()
