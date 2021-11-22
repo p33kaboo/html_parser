@@ -1,5 +1,3 @@
-import time
-
 import requests
 from bs4 import BeautifulSoup
 
@@ -7,7 +5,6 @@ from bs4 import BeautifulSoup
 class HtmlParser:
     def __init__(self, url: str):
         self.url = url
-        self.current_time = time.time()
 
     @property
     def website(self):
